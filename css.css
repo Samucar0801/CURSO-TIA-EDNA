@@ -1,0 +1,13 @@
+a{
+    color: red;
+    font-size: 32px;
+}
+
+body{
+    background-color: green;
+    padding: 10px 20px;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
