@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="semântica.css" />
+  </head>
+  <body>
+    <h1>site direcionado a entender a semântica</h1>
+
+    <h2>Nav</h2>
+    <p>
+      A tag NAV é ultilizada para ser o elemento pai de links, pois são itens de
+      navegação o atributo aria-label é ultlizado para nomear o tipo de
+      navegação(primaria,secundaria)
+    </p>
+
+    <nav aria-labell="primaria">
+      <a href="">Link 1</a>
+      <a href="">Link 2</a>
+      <a href="">Link 3</a>
+      <a href="">Link 4</a>
+    </nav>
+
+    <article aria-labelledby="artigo">
+      <h2 id="artigo">article</h2>
+      <p>
+        A tag article é uma seção (parte) do site que não precisa do site todo
+        para fazer sentido, ou seja, é uma região auto_explicativa.
+      </p>
+      <p>
+        O aria-labelledby é um atributo utilizado quando se quer evitar
+        repetições de palavras próximas no leitor de tela, ex: se você colocar
+        um título 'celular' e uma descrição aria-label = 'celular', o leitor de
+        tela lerá duas vezes a palavra celular causando um desconforto. Então,
+        utilizamos um ID no título e um aria-labelledby com, assim o leitor de
+        tela lerá somente uma vez.
+      </p>
+    </article>
+
+    <main>
+      <h2>Main</h2>
+      <p>A tag main guarda o contudo principa do site</p>
+    </main>
+  </body>
+</html>
